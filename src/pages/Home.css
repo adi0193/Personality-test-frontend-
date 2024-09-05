@@ -1,0 +1,104 @@
+/* Test.css */
+
+body {
+  background: linear-gradient(135deg, #7F00FF 0%, #E100FF 100%);
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #3f51b5;
+  padding: 20px;
+  margin-bottom: 2rem;
+  width: 90%;
+  max-width: 1200px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border-radius: 12px;
+}
+
+.header-title {
+  color: white;
+  font-size: 1.75rem;
+}
+
+.card {
+  padding: 3rem;
+  border-radius: 18px;
+  background-color: #f7f9fc;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.card-title {
+  color: #3f51b5;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.question-text {
+  color: #1a237e;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.radio-label {
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+.button {
+  font-weight: bold;
+  padding: 14px 28px;
+  width: 100%;
+  margin-top: 1.5rem;
+  border-radius: 8px;
+}
+
+.button-primary {
+  background-color: #3949ab;
+  color: white;
+}
+
+.button-primary:hover {
+  background-color: #303f9f;
+}
+
+.button-secondary {
+  background-color: #f50057;
+  color: white;
+}
+
+.button-secondary:hover {
+  background-color: #c51162;
+}
+
+.result-score {
+  color: #1a237e;
+  font-weight: bold;
+}
+
+.result-personality {
+  color: #f50057;
+}
+
+.box {
+  margin-top: 1.5rem;
+}
