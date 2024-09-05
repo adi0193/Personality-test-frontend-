@@ -27,7 +27,7 @@ function Login() {
             return handleError('email and password are required')
         }
         try {
-            const url = `http://localhost:8080/auth/login`;
+            const url = `${process.env.REACT_APP_BACKEND_URL}/auth/login`;
             const response = await fetch(url, {
                 method: "POST",
                 headers: {

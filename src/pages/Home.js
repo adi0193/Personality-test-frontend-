@@ -42,7 +42,7 @@ function Test() {
 
   const handleSubmit = async () => {
     try {
-      const response = await axios.post('http://localhost:5000/api/submit-test', answers, {
+      const response = await axios.post(`${process.env.REACT_APP_FLASK_URL}/api/submit-test`, answers, {
         headers: { Authorization: `Bearer ${localStorage.getItem('token')}` }
       });
       console.log('API Response:', response.data);

@@ -27,7 +27,7 @@ function Signup() {
             return handleError('name, email and password are required')
         }
         try {
-            const url = `http://localhost:8080/auth/signup`;
+            const url = `${process.env.REACT_APP_BACKEND_URL}/auth/signup`;
             const response = await fetch(url, {
                 method: "POST",
                 headers: {
